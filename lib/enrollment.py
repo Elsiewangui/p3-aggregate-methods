@@ -45,3 +45,6 @@ class Enrollment:
 
     def get_enrollment_date(self):
         return self._enrollment_date
+    
+    def course_count(self):
+        return len(self._enrollments)
